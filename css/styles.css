@@ -1,0 +1,85 @@
+.root{
+    /* Fonts */
+    --main-font: Roboto , sans-serif;
+    --secondary-font: Ralawey , sans-serif;
+    
+    /* Text colors */
+    --main-txt-cl: #212121;
+    --accent-txt-cl: #2196F3;
+    --btn-txt-cl: #ffffff;
+    --second-txt-color:#757575;
+    
+    /* background-color */
+    --light-bg-cl:#ffffff;
+    --dark-bg-cl: #2F303A;
+    --grey-bg-cl: #757575;
+
+    /* others */
+}
+
+.body {
+    font-family: var(--main-font);
+    color:var(--main-txt-cl)
+}
+
+/* reset styles */
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+.list {
+    list-style: none;
+}
+
+/* base style */
+.uppertitle
+
+
+
+/* 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!Header section!!!!!!!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+
+
+/* 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!Hero section!!!!!!!!!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+.hero {
+    background-color: var(--dark-bg-cl);
+}
+/* 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!Features section!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+.feature {
+    background-color: var(--light-bg-cl);
+}
+
+/* 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!Portfolio section!!!!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+.portfolio {
+    background-color: var(--light-bg-cl);
+}
+
+/* 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!Team section!!!!!!!!!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
+.team {
+    background-color: var(--grey-bg-cl);
+}
+
+/* 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!Footer section!!!!!!!!!! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*/
