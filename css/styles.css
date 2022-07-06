@@ -113,7 +113,7 @@ span {
   color: var(--accent-txt-cl);
 }
 .contact-item {
-  color: var(--black-txt-cl);
+  color: var(--grey-color);
   text-decoration: none;
 }
 .contact-item:hover,
@@ -216,8 +216,9 @@ span {
   letter-spacing: 0.03em;
 }
 .address-item {
-  color: var(--white-cl);
+  color: rgba(255, 255, 255, 0.6);
 }
+
 .address-item:hover,
 .address-item:focus {
   color: var(--accent-txt-cl);
