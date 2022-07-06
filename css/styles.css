@@ -1,27 +1,30 @@
 :root {
   /* Fonts */
-  --main-font: Roboto, sans-serif;
-  --secondary-font: Ralawey, sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Ralawey', sans-serif;
 
   /* Text colors */
   --main-txt-cl: #212121;
   --accent-txt-cl: #2196f3;
-  --btn-txt-cl: #ffffff;
-  --second-txt-color: #757575;
+  --white-cl: #ffffff;
+  --grey-color: #757575;
   --black-txt-cl: #000000;
   /* background-color */
   --light-bg-cl: #ffffff;
   --dark-bg-cl: #2f303a;
   --grey-bg-cl: #757575;
-  --blue-bg-cl: #3a1abd;
+  --blue-bg-cl: #1a81bd;
 
   /* others */
 }
 
-.body {
-  font-size: 14px;
+body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
+  font-size: 14px;
+}
+span {
+  color: var(--black-txt-cl);
 }
 /* reset styles */
 .link {
@@ -31,16 +34,19 @@
 .list {
   list-style: none;
 }
-
+.font-style {
+  font-style: normal;
+}
 /* base style */
 .uppertitle {
+  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--btn-txt-cl);
+  color: var(--white-cl);
 }
 .btn {
   font-family: var(--main-font);
@@ -48,17 +54,17 @@
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
-  color: var(--btn-txt-cl);
+  color: var(--white-cl);
   background-color: var(--accent-txt-cl);
   cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
-  color: var(--btn-txt-cl);
+  color: var(--white-cl);
   background-color: var(--blue-bg-cl);
 }
 .btn-current {
-  color: var(--btn-txt-cl);
+  color: var(--white-cl);
   background-color: var(--accent-txt-cl);
 }
 .btn-dark {
@@ -68,16 +74,18 @@
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark-current {
-  color: var(--btn-txt-cl);
+  color: var(--white-cl);
   background-color: var(--accent-txt-cl);
 }
 .logo {
-  font-family: --main-font;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
+  color: var(--accent-txt-cl);
 }
+
 /* 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!Header section!!!!!!!! 
@@ -92,6 +100,8 @@
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  color: var(--black-txt-cl);
+  text-decoration: none;
 }
 .header-link:hover,
 .header-link:focus,
@@ -104,7 +114,14 @@
 }
 .web-cl {
   color: var(--accent-txt-cl);
-  font-family: var(--secondary-font);
+}
+.contact-item {
+  color: var(--black-txt-cl);
+  text-decoration: none;
+}
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-txt-cl);
 }
 /* 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -128,7 +145,6 @@
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 .feature-paragraph {
   font-weight: 400;
@@ -166,7 +182,6 @@
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -174,7 +189,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -182,7 +196,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -194,35 +207,38 @@
 .footer {
   background-color: var(--dark-bg-cl);
 }
+.footer-studio {
+  color: var(--white-cl);
+}
 .address {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-cl);
+  text-decoration: none;
 }
-.footer-list {
+.address-items {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
-.footer-logo {
-  color: var(--btn-txt-cl);
+.address-item {
+  color: var(--white-cl);
+}
+.address-item:hover,
+.address-item:focus {
+  color: var(--accent-txt-cl);
 }
 /* portfolio page */
 .name-sites {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-  color: #212121;
 }
 .about-sites {
-  font-family: var(--main-font);
-  font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: #757575;
