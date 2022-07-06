@@ -148,7 +148,7 @@ span {
 .feature-paragraph {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-bg-cl);
 }
 /* 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -164,7 +164,6 @@ span {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 /* 
@@ -173,27 +172,23 @@ span {
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 */
 .team {
-  background-color: #e5e5e5;
+  background-color: #f5f4fa;
 }
 .team-main {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .team-name {
   font-weight: 500;
-  font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .team-job {
-  font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-bg-cl);
 }
 /* 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -214,7 +209,6 @@ span {
 }
 .address-items {
   font-weight: 400;
-  font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
@@ -234,6 +228,7 @@ span {
   letter-spacing: 0.06em;
 }
 .about-sites {
+  font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: #757575;
