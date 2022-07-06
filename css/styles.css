@@ -35,6 +35,9 @@ span {
 .list {
   list-style: none;
 }
+.font-style {
+  font-style: normal;
+}
 /* base style */
 .uppertitle {
   font-family: var(--main-font);
